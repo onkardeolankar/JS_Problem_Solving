@@ -37,6 +37,7 @@ console.log(output);
 ```
 Another Approach:
 
+```js
 Write a function to count the frequency of each element from given array and return an object with each element and its count.
 let arr7 = [1, 2, 3, 1, 3, 4, 2, 5, 5, 4]
 
@@ -52,3 +53,18 @@ function countFrequency(arr){
 }
 
 console.log(countFrequency(arr7));
+
+```js
+Write a JavaScript program to remove all occurrences of a specified character from a given string in JavaScript
+
+function removeAllOccurance_1(str, char) {
+    return str.split(char).join("");
+}
+
+function removeAllOccurance_2(str, char) {
+    const regex = new RegExp(char, 'g');
+    return str.replace(regex, '');
+}
+
+//    console.log(removeAllOccurance_1("my name is bittu", "i"));  // my name s bttu
+//    console.log(removeAllOccurance_2("my name is bittu", "i"));  // my name s bttu
