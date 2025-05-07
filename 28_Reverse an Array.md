@@ -1,5 +1,5 @@
 1. String reverse with reversing of individual words
-
+```js
 function withoutReverse(){
    var string ="India is my country"
    let result = string.split('').reverse().join('')
@@ -7,8 +7,9 @@ function withoutReverse(){
 }
 console.log(withoutReverse())
 // output = "yrtnuoc ym si aidnI"
------------------------------------------------------------------------------------------
+```
 2. String reverse without using inbult function
+```js
 function Reverse(){
    var string ="India is my country";
    var result="";
@@ -18,9 +19,9 @@ function Reverse(){
 }
 console.log(Reverse())
 // output = "yrtnuoc ym si aidnI"
------------------------------------------------------------------------------------------
-3. String reverse without reversing of individual words (Array of elements can be reverse with reverse() method but for string it is won't possible so required to split 
-and then join().
+```
+3. String reverse without reversing of individual words (Array of elements can be reverse with reverse() method but for string it is won't possible so required to split and then join().
+```js
 function removeDuplicates(){
    var string ="India is my country"
    let result = string.split('').reverse().join('').split(' ').reverse().join(' ')
@@ -28,3 +29,4 @@ function removeDuplicates(){
 }
 console.log(removeDuplicates()) 
 // output = "aidnI si ym yrtnuoc"
+```
