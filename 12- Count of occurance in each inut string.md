@@ -53,3 +53,22 @@ function countCharacters(input) {
 const inputString = "abbcccd";
 countCharacters(inputString);
 ```
+```js
+count the character in string
+// input: malyalam
+// outout : m:2, a:3, l:2, y:1
+
+function countString(str) {
+    let obj = {};
+    for (let x of str) {
+        if (obj[x]) {
+            obj[x] = obj[x] + 1;
+        } else {
+            obj[x] = 1;
+        }
+    }
+    return obj;
+}
+
+// console.log(countString("malyalam"));
+```
