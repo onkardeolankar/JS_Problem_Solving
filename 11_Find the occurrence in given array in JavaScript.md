@@ -35,3 +35,20 @@ const input = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
 const output = countOccurrences(input);
 console.log(output);
 ```
+Another Approach:
+
+Write a function to count the frequency of each element from given array and return an object with each element and its count.
+let arr7 = [1, 2, 3, 1, 3, 4, 2, 5, 5, 4]
+
+function countFrequency(arr){
+	let count= {};
+  for(let data of arr){
+  	if(!count[data]){
+    	count[data]=0;
+    }
+  	count[data]=count[data]+1
+  }
+  return count;
+}
+
+console.log(countFrequency(arr7));
