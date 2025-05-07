@@ -53,7 +53,8 @@ function countFrequency(arr){
 }
 
 console.log(countFrequency(arr7));
-
+```
+Another Approach 2:
 ```js
 Write a JavaScript program to remove all occurrences of a specified character from a given string in JavaScript
 
